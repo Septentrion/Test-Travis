@@ -24,4 +24,13 @@ class CalculatorTest extends \PHPUnit_Framework_TestCase
         // assert that your calculator added the numbers correctly!
         $this->assertEquals(60, $result);
     }
+
+        public function testDiv()
+        {
+            $calc = new Calculator();
+            $result = $calc->div(30, 2);
+
+            // assert that your calculator added the numbers correctly!
+            $this->assertEquals(15, $result);
+        }
 }

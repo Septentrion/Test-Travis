@@ -13,4 +13,10 @@ class Calculator
     {
         return $a * $b;
     }
+
+    public function div($a, $b)
+    {
+        return $a / $b;
+    }
+
 }
