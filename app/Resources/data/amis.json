@@ -1,0 +1,16 @@
+{
+    "amis": [
+        {
+            "id": 1,
+            "prenom": "dgfgfd",
+            "email": "",
+            "hobbies": ["cinema", "cuisine"]
+        },
+        {
+            "id": 2,
+            "prenom": "gfgjfgf",
+            "email": "",
+            "hobbies": ["cinema", "cuisine"]
+        }
+    ]
+}

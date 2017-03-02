@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link href="{{ asset('bundles/portfolio/css/style.css') }}" />
+    </head>
+    <body>
+        {#% include 'PortfolioBundle:Fragments:header.html.twig' %#}
+        <main>
+            {% block content %}{% endblock %}
+            {% include 'PortfolioBundle:Fragments:sidebar.html.twig' %}
+        </main>
+        {% include 'PortfolioBundle:Fragments:footer.html.twig' %}
+    </body>
+</html>

@@ -1,0 +1,7 @@
+<ul>
+    {% for a in amis %}
+    <li>
+        <a href="{{ path('detailAmi', {'id': a.prenom }) }}">{{ a.prenom }}</a>
+    </li>
+    {% endfor %}
+</ul>

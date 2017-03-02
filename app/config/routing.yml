@@ -1,0 +1,11 @@
+portfolio:
+    resource: "@PortfolioBundle/Resources/config/routing.xml"
+    prefix:   /portfolio
+
+site:
+    resource: "@SiteBundle/Resources/config/routing.xml"
+    prefix:   /site
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
