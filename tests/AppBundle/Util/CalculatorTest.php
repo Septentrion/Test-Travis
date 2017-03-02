@@ -15,4 +15,13 @@ class CalculatorTest extends \PHPUnit_Framework_TestCase
         // assert that your calculator added the numbers correctly!
         $this->assertEquals(42, $result);
     }
+
+    public function testMult()
+    {
+        $calc = new Calculator();
+        $result = $calc->mult(30, 2);
+
+        // assert that your calculator added the numbers correctly!
+        $this->assertEquals(60, $result);
+    }
 }

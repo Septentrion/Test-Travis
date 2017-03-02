@@ -8,4 +8,9 @@ class Calculator
     {
         return $a + $b;
     }
+
+    public function mult($a, $b)
+    {
+        return $a * $b;
+    }
 }
