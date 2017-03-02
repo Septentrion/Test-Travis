@@ -11,12 +11,12 @@ env:
   - SYMFONY_VERSION="3.1.*" DB=mysql
 
 matrix:
-    include:
-    - php: 5.4
-      env: SYMFONY_VERSION="2.8.*" DB=mysql
+    exclude:
     - php: 5.6
-      env: SYMFONY_VERSION="3.1.*" DB=mysql
+      env: SYMFONY_VERSION="2.8.*" DB=mysql
     - php: 7.0
+      env: SYMFONY_VERSION="2.8.*" DB=mysql
+    - php: 5.4
       env: SYMFONY_VERSION="3.1.*" DB=mysql
 
 script: phpunit tests/AppBundle/Util
